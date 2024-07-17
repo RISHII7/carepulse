@@ -120,6 +120,7 @@ const RegisterForm = ({ user }: { user: User }) => {
                     control={form.control}
                     name="birthDate"
                     label="Date of Birth"
+                    placeholder="Select your birth date"
                 />
 
                 <CustomFormField
@@ -337,7 +338,7 @@ const RegisterForm = ({ user }: { user: User }) => {
                 />
 
                 <SubmitButton isLoading={isLoading}>
-                    Get Started
+                    Submit and Continue
                 </SubmitButton>
             </form>
         </Form>
